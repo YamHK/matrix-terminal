@@ -1,0 +1,17 @@
+package top.yamhk.terminal.server4history.icpcHDU;
+
+import java.util.Scanner;
+
+public class HDU1090 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        Integer n, a, b;
+        n = in.nextInt();
+        while (n-- > 0) {
+            a = in.nextInt();
+            b = in.nextInt();
+            System.out.println(a + b);
+        }
+        in.close();
+    }
+}
